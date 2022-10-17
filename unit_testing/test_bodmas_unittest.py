@@ -14,6 +14,9 @@ class TestBodmas(unittest.TestCase):
     def test_subtraction(self):
         self.assertEqual(bodmas.subtraction(18, 13), 4)
 
+    def test_multiplication(self):
+        self.assertEqual(bodmas.multiplication(15, 10), 150)
+
 
 if __name__ == '__main__':
         unittest.main()
